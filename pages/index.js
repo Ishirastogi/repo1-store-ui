@@ -16,9 +16,10 @@ export default function Home() {
           <p className={styles.subtitle}>Explore T-shirts, Hoodies, and Baseball Caps designed for everyday legends.</p>
         </section>
         <section className={styles.categories}>
-          <div className={styles.card}><a href="http://localhost:3001/products/tshirt1">T-Shirts</a></div>
-          <div className={styles.card}><a href="http://localhost:3001/products/hoodie1">Hoodies</a></div>
-          <div className={styles.card}><a href="http://localhost:3001/products/cap1">Baseball Caps</a></div>
+          <div className={styles.card}><a href="https://repo2-ecommerce-engine.vercel.app/products/tshirt1">T-Shirts</a></div>
+          <div className={styles.card}><a href="https://repo2-ecommerce-engine.vercel.app/products/hoodie1">Hoodies</a></div>
+          <div className={styles.card}><a href="https://repo2-ecommerce-engine.vercel.app/products/cap1">Baseball Caps</a>
+          </div>
         </section>
       </main>
       <Footer />
